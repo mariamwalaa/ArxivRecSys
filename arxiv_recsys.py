@@ -13,7 +13,7 @@ class ArXivPaperRecommendationSystem:
         self.base_url = 'http://export.arxiv.org/api/query?'
 
         # Define your search query for the specified categories
-        self.search_query = 'cat:math.CO+OR+cat:math.PR+OR+cat:math.ST'
+        self.search_query = 'cat:math.CO'
 
         # Set the number of results you want per request
         self.results_per_query = 10
